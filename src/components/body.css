@@ -1,0 +1,100 @@
+
+.body-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero{ 
+    background-color: #991F48;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+img{
+    width: 75%;
+    margin: 2rem auto;
+}
+
+p{
+    width: 70%;
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    height: 8vmin;
+    width: 30vmin;
+    background-color: #991F48;
+    border: 2px solid white;
+    margin: 1rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: white;
+    color: #991F48;
+    transition: 0.4s ease-in-out;
+}
+
+.details{
+    margin: 2rem;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+strong{
+    color: #991F48;
+}
+
+.para{
+    width: 100%;
+    margin: 1rem 0rem;
+    text-align: start;
+}
+
+.contact-us{
+    margin: 2rem;
+}
+
+
+.contact-us p{
+    margin: auto;
+    color: rgb(63, 63, 63);
+}
+
+
+.contact-us .contact-para{
+    margin: 1rem auto;
+    width: 100%;
+    font-size: 1.4rem;
+    color: #991F48;
+}
+
+hr{
+    width: 70%;
+    background-color: #991F48;
+}
